@@ -110,3 +110,29 @@ p {
   font-size: 28px;
   text-decoration: none;
 }
+
+@media (max-width: 576px) {
+  body {
+    margin-top: 100px 0px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h2.home {
+    text-align: center;
+  }
+  h1 {
+    font-size: 50px;
+    font-weight: 500;
+    margin: 15px 0px;
+  }
+  p {
+    text-align: center;
+    margin: 5px;
+  }
+  .launch-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
+}
